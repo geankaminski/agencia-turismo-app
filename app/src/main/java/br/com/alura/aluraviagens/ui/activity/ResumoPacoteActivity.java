@@ -41,7 +41,7 @@ public class ResumoPacoteActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, PagamentoActivity.class);
         startActivity(intent);
-        
+
     }
 
     private void mostraData(Pacote pacote) {
