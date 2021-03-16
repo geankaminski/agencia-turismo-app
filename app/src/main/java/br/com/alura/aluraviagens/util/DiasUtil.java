@@ -6,9 +6,9 @@ public class DiasUtil {
     public static final String SINGULAR = " dia";
 
     public static String formataDiasEmTexto(int quantidadeDeDias) {
-        String dia = SINGULAR;
+        String dia = quantidadeDeDias + SINGULAR;
         if(quantidadeDeDias > 1) {
-            dia = PLURAL;
+            dia =  quantidadeDeDias + PLURAL;
         }
         return dia;
     }
